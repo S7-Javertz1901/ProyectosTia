@@ -1,0 +1,82 @@
+{
+  "version": "2",
+  "users": [
+    {
+      "name": "AA",
+      "password": {
+        "hash": "YS0eYPcCjXrjlByvUeKEoo4Pk6JqrSgQy5N7nS/5dfr8hqxbIAEpsDTlUTY7T7/8/E+7rFIJ+H/yxIUd0krDcg==",
+        "salt": "XFbkSKS2jx7zUfnHI2YBV7wbYL0e9SFAYxCfZ5CunBY=",
+        "algorithm": "PBKDF2-HMAC-SHA1",
+        "encoding": "utf16le",
+        "iteration": 10000
+      },
+      "fullname": "AA",
+      "comment": "",
+      "alertbeforepasswordexpirationdays": 0,
+      "passwordexpirationdays": 0,
+      "autologoff": 30
+    }
+  ],
+  "groups": [
+    {
+      "name": "HMI Administrator",
+      "roles": [
+        "HMI Administrator"
+      ],
+      "users": [
+        "AA"
+      ]
+    },
+    {
+      "name": "HMI Operator",
+      "users": [
+        "AA"
+      ]
+    },
+    {
+      "name": "HMI Monitor",
+      "users": []
+    },
+    {
+      "name": "HMI Monitor Client",
+      "users": []
+    },
+    {
+      "name": "HMI Online Configuration Engineer",
+      "users": []
+    }
+  ],
+  "roles": [
+    {
+      "name": "HMI Administrator",
+      "rights": [
+        "UM_ADMIN",
+        "UM_IMPORT",
+        "UM_EXPORT",
+        "UM_VIEW",
+        "UM_RESETPWD"
+      ]
+    }
+  ],
+  "globalAccountPolicies": {
+    "enableLockAfterNumberOfAttempts": 0,
+    "enablePasswordHistoryByDays": 0,
+    "enablePasswordHistoryByNumber": 1,
+    "enablePasswordCheck": 1,
+    "maxLoginErrors": 0,
+    "numberOfPasswordBeforeReuse": 5,
+    "passwordAging": 0,
+    "passwordMaxLength": 120,
+    "passwordMinAlphaChar": 0,
+    "passwordMinLength": 8,
+    "passwordMinLowerChar": 1,
+    "passwordMinUpperChar": 1,
+    "passwordMinNumericChar": 1,
+    "passwordMinOtherChar": 0
+  },
+  "umcConfig": {
+    "local": {
+      "domainName": "UM_Domain"
+    }
+  }
+}

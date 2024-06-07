@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<DownloadTask xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectInfo ProjectId="0e5bd35b-60e6-4516-82fc-59d76c384674" ESProjectName="Unified" ESDeviceName="HMI_RT_1" RtProjectFolderName="Unified.PC station[SIMATIC PC station - WinCC Unified PC RT]" RtProjectName="Unified.PC station[SIMATIC PC station - WinCC Unified PC RT]" DeviceType="SIMATIC PC station - WinCC Unified PC RT" DeviceVersion="19.0.0.0" CreationTime="03/15/2024 09:39:57" FirmwareFileName="" RuntimeFileName="" PRCV="5.0.0.1" RTCV="0.0.0.0" RTReleaseNo="19.0.0.0" ImageReleaseNo="0.0.0.0" />
+  <DeltaDownload>deltas\200\cds.rdf</DeltaDownload>
+  <DeltaDownload>deltas\200\ChromIdentification.rdf</DeltaDownload>
+  <DeltaDownload>deltas\200\deltaMain.rdf</DeltaDownload>
+  <DeltaDownload>deltas\200\deltaTextLibrary_2_1033.rdf</DeltaDownload>
+  <DeltaDownload>deltas\200\ProjectCharacteristics.rdf</DeltaDownload>
+  <DeltaDownload>deltas\200\config\config.level</DeltaDownload>
+  <DeltaDownload>deltas\200\screens\screen_247.rdf</DeltaDownload>
+  <DeltaDownload>deltas\200\screens\screen_310.rdf</DeltaDownload>
+  <DeltaDownload>deltas\200\screens\screen_405.rdf</DeltaDownload>
+</DownloadTask>
