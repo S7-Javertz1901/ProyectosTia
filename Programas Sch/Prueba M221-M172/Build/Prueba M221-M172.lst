@@ -1,0 +1,359 @@
+***********************************************************************
+*
+*	CODE GENERATION LISTING FOR: Prueba M221-M172
+*	COMPILER VERSION: 5.20.0.53
+*
+***********************************************************************
+
+**************************************************
+	CODE GENERATOR SUBROUTINES
+**************************************************
+
+$$MOD:
+A08041E0  FB90 F3F1		sdiv r3, r0, r1
+A08041E4  4359     		mul r1, r1, r3
+A08041E6  EBC1 0000		rsb r0, r1, r0
+A08041EA  4770     		bx lr
+
+$$MOD_U:
+A08041EC  FBB0 F3F1		udiv r3, r0, r1
+A08041F0  4359     		mul r1, r1, r3
+A08041F2  EBC1 0000		rsb r0, r1, r0
+A08041F6  4770     		bx lr
+
+**************************************************
+	List program: ParCheck
+**************************************************
+
+PROGRAM ParCheck
+
+END_PROGRAM
+
+A0804200  B082     		sub sp, sp, #8
+A0804202  F8CD E000		str lr, [sp]
+A0804206  E92D 0FF0		stmdb sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+
+#0		{SRC:ParCheck}
+#1		(*$WAITSWITCH$*)
+#2		
+#3		
+#4			(* IF Par_POLI AND 16#fc00) <> 2048 *)
+#5			LD		Par_POLI	{LNXT:2|-1|-1}
+(*) UNDEF
+A080420A  F8DF 7034		ldr r7, [pc, #+52] ; 0x10000182
+A080420E  8838     		ldrh r0, [r7]
+
+#6			AND		16#fc00	{LNXT:2|-1|-1}
+(*) UINT
+A0804210  F44F 477C		mov r7, #64512 ; 64512
+A0804214  4038     		and r0, r0, r7
+
+#7			NE		2048	{LNXT:2|-1|-1}
+(*) UINT
+A0804216  F44F 6700		mov r7, #2048 ; 2048
+A080421A  42B8     		cmp r0, r7
+A080421C  BF08 2000		eqmov r0, #0
+A0804220  BF18 2001		nemov r0, #1
+
+#8			JMPCN	$label0	{LNXT:2|3|2}
+(-) BOOL
+A0804224  2800     		cmp r0, #0
+A0804226  D005     		beq #10 ; 0xA0804234
+
+
+#9		
+#10			(* THEN *)
+#11		
+#12				(* WHILE TRUE *)
+#13		$label1:
+#14				LD		TRUE	{LNXT:3|-1|-1}
+(-) UNDEF
+A080422A  2001     		mov r0, #1 ; 1
+
+#15				JMPCN		$label2	{LNXT:3|2|2}
+(-) BOOL
+A080422C  2800     		cmp r0, #0
+A080422E  D001     		beq #2 ; 0xA0804234
+
+
+#16		
+#17				(* DO *)
+#18					JMP		$label1	{LNXT:3|2|2}
+(-) BOOL
+A0804232  E7FA     		b #-12 ; 0xA080422A
+
+A0804234  E8BD 0FF0		ldmia sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+A0804238  F8DD E000		ldr lr, [sp]
+A080423C  B002     		add sp, sp, #8
+
+A080423E  4770     		bx lr
+
+A0804240  FFFFFFFF		; 0x10000182
+
+END_PROGRAM
+
+
+**************************************************
+	Target variable image generation
+**************************************************
+
+
+*** INPUT:
+A0804244  4770     		bx lr
+
+
+*** OUTPUT:
+A0804246  4770     		bx lr
+
+
+
+**************************************************
+	Task Init init code
+**************************************************
+
+A0804248  B082     		sub sp, sp, #8
+A080424A  F8CD E000		str lr, [sp]
+A080424E  E92D 0FF0		stmdb sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+
+A0804252  E8BD 0FF0		ldmia sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+A0804256  F8DD E000		ldr lr, [sp]
+A080425A  B002     		add sp, sp, #8
+
+A080425C  4770     		bx lr
+
+**************************************************
+	List program: InitParDB
+**************************************************
+
+PROGRAM InitParDB
+
+        VAR
+warningsKiller : USINT;
+dummyCrc32 : UDINT;
+	END_VAR
+
+END_PROGRAM
+
+A0804270  B082     		sub sp, sp, #8
+A0804272  F8CD E000		str lr, [sp]
+A0804276  E92D 0FF0		stmdb sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+
+#0		{SRC:InitParDB}
+#1		(*$WAITSWITCH$*)
+#2		
+#3			(* dummyCrc32 := 3167362288; *)
+#4			MOVE		3167362288,dummyCrc32	{LNXT:3|5|-1}
+(*) UDINT
+A080427A  F8DF 7040		ldr r7, [pc, #+64] ; 0xBCCA1CF0
+A080427E  4638     		mov r0, r7
+A0804280  F8DF 7030		ldr r7, [pc, #+48] ; 0xA0A0000C
+A0804284  6038     		str r0, [r7]
+
+#5		
+#6			(* warningsKiller := sysDBase_SetExtTable( ADR( $$ParDB ), $$ParDBLength ); *)
+#7			ADR		$$ParDB	{LNXT:5|3|-1}
+(*) UDINT
+A0804286  F8DF 0028		ldr r0, [pc, #+40] ; 0xA08000C0
+
+#8			sysDBase_SetExtTable		$$ParDBLength	{LNXT:5|3|-1}
+(*) @USINT
+A080428A  4607     		mov r7, r0
+A080428C  4638     		mov r0, r7
+A080428E  2707     		mov r7, #7 ; 7
+A0804290  4639     		mov r1, r7
+A0804292  F8DF 402C		ldr r4, [pc, #+44] ; 0x124F3
+A0804296  F044 0401		orr r4, r4, #1
+A080429A  47A0     		blx r4
+
+#9			ST		warningsKiller	{LNXT:5|3|-1}
+(*) USINT
+A080429C  F8DF 7018		ldr r7, [pc, #+24] ; 0xA0A00010
+A08042A0  7038     		strb r0, [r7]
+
+A08042A2  E8BD 0FF0		ldmia sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+A08042A6  F8DD E000		ldr lr, [sp]
+A08042AA  B002     		add sp, sp, #8
+
+A08042AC  4770     		bx lr
+
+A08042B0  A08000C0		; 0xA08000C0
+A08042B4  A0A0000C		; 0xA0A0000C
+A08042B8  A0A00010		; 0xA0A00010
+A08042BC  BCCA1CF0		; 0xBCCA1CF0
+A08042C0  FFFFFFFF		; 0x000124F3
+
+END_PROGRAM
+
+
+**************************************************
+	Target variable image generation
+**************************************************
+
+
+*** INPUT:
+A08042C4  4770     		bx lr
+
+
+*** OUTPUT:
+A08042C6  4770     		bx lr
+
+
+
+**************************************************
+	Task Serv init code
+**************************************************
+
+A08042C8  B082     		sub sp, sp, #8
+A08042CA  F8CD E000		str lr, [sp]
+A08042CE  E92D 0FF0		stmdb sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+
+A08042D2  E8BD 0FF0		ldmia sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+A08042D6  F8DD E000		ldr lr, [sp]
+A08042DA  B002     		add sp, sp, #8
+
+A08042DC  4770     		bx lr
+
+**************************************************
+	List program: POU
+**************************************************
+
+PROGRAM POU
+
+END_PROGRAM
+
+A08042F0  B082     		sub sp, sp, #8
+A08042F2  F8CD E000		str lr, [sp]
+A08042F6  E92D 0FF0		stmdb sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+
+#0			{SRC:POU}
+#1		 
+#2		  
+#3			(* Network 1 *)
+#4			LD		ON1 {R:1$0}
+(*) UNDEF
+A08042FA  F8DF 7018		ldr r7, [pc, #+24] ; 0xA0003EDA
+A08042FE  7838     		ldrb r0, [r7]
+
+#5			ST		PUMP1 {R:1$1}
+(*) BOOL
+A0804300  F8DF 7014		ldr r7, [pc, #+20] ; 0xA0003EDC
+A0804304  7038     		strb r0, [r7]
+
+A0804306  E8BD 0FF0		ldmia sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+A080430A  F8DD E000		ldr lr, [sp]
+A080430E  B002     		add sp, sp, #8
+
+A0804310  4770     		bx lr
+
+A0804314  FFFFFFFF		; 0xA0003EDA
+A0804318  FFFFFFFF		; 0xA0003EDC
+
+END_PROGRAM
+
+
+**************************************************
+	Target variable image generation
+**************************************************
+
+
+*** INPUT:
+A080431C  B082     		sub sp, sp, #8
+A080431E  F8CD E000		str lr, [sp]
+A0804322  E92D 0FF0		stmdb sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+
+A0804326  E8BD 0FF0		ldmia sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+A080432A  F8DD E000		ldr lr, [sp]
+A080432E  B002     		add sp, sp, #8
+
+A0804330  4770     		bx lr
+
+
+*** OUTPUT:
+A0804332  B082     		sub sp, sp, #8
+A0804334  F8CD E000		str lr, [sp]
+A0804338  E92D 0FF0		stmdb sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+
+A080433C  E8BD 0FF0		ldmia sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+A0804340  F8DD E000		ldr lr, [sp]
+A0804344  B002     		add sp, sp, #8
+
+A0804346  4770     		bx lr
+
+
+
+**************************************************
+	Task Timed init code
+**************************************************
+
+A0804348  B082     		sub sp, sp, #8
+A080434A  F8CD E000		str lr, [sp]
+A080434E  E92D 0FF0		stmdb sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+
+A0804352  E8BD 0FF0		ldmia sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+A0804356  F8DD E000		ldr lr, [sp]
+A080435A  B002     		add sp, sp, #8
+
+A080435C  4770     		bx lr
+
+
+
+**************************************************
+	Global init code
+**************************************************
+
+A0804370  B082     		sub sp, sp, #8
+A0804372  F8CD E000		str lr, [sp]
+A0804376  E92D 0FF0		stmdb sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+
+A080437A  E8BD 0FF0		ldmia sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+A080437E  F8DD E000		ldr lr, [sp]
+A0804382  B002     		add sp, sp, #8
+
+A0804384  4770     		bx lr
+
+
+
+**************************************************
+	Global RETAIN init code
+**************************************************
+
+A0804386  B082     		sub sp, sp, #8
+A0804388  F8CD E000		str lr, [sp]
+A080438C  E92D 0FF0		stmdb sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+
+A0804390  E8BD 0FF0		ldmia sp!, { r4, r5, r6, r7, r8, r9, r10, r11 }
+A0804394  F8DD E000		ldr lr, [sp]
+A0804398  B002     		add sp, sp, #8
+
+A080439A  4770     		bx lr
+
+
+
+********************************************
+MEMORY MAP
+********************************************
+
+Code area type:          		       main code
+Start code area:          		00000000A0800000h
+End code area:            		00000000A080442Ch
+Code size:                		0000442Ch
+
+Start local data area:    		00000000A0A00000h
+End local data area:      		00000000A0A00011h
+Local data size:          		00000011h
+
+Start retentive data area:		0000000000000000h
+End retentive data area:  		0000000000000000h
+Retentive data size:      		00000000h
+
+Start bit data area:      		0000000000000000h
+End bit data area:        		0000000000000000h
+Bit data size:            		00000000h
+
+
+
+********************************************
+CODE ID:                                F9102260
+DEBUG MEMO ID:                          A0805202
+FULL MEMO ID:                           0000B15E
+********************************************

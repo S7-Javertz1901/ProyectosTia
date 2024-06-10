@@ -1,0 +1,9 @@
+; Automatically generated, do not edit !
+
+;CANopen_presence:0
+;Ethernet_presence:0
+; Configuration for Modbus Slave TCP
+MbSTcp_OpenChn
+MbSTcp_OpenChn
+
+;

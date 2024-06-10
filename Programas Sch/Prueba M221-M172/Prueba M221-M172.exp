@@ -1,0 +1,17 @@
+﻿	(******************************)
+	(*                            *)
+	(*     EXPORTED VARIABLES     *)
+	(*                            *)
+	(******************************)
+
+        VAR_GLOBAL
+	{G:"Status_variables"}
+Encendido AT %MW110.0 : BOOL := 0;
+Bobina AT %MW110.1 : BOOL := 0;
+Apagado AT %MW110.2 : BOOL := 0;
+BobAux AT %MW110.3 : BOOL := 0;
+BobAux2 AT %MW110.4 : BOOL := 0;
+On1 AT %MW110.5 : BOOL := 0;
+Pump1 AT %MW110.6 : BOOL := 0;
+	END_VAR
+
