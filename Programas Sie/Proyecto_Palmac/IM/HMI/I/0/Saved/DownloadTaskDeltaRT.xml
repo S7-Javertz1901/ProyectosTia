@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<DownloadTask xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectInfo ProjectId="848f3e0a-906e-47e5-97bd-2eab908e503b" ESProjectName="Proyecto_Palmac" ESDeviceName="HMI_RT_1" RtProjectFolderName="Proyecto_Palmac.HMI_1[MTP700 Unified Comfort]" RtProjectName="Proyecto_Palmac.HMI_1[MTP700 Unified Comfort]" DeviceType="MTP700 Unified Comfort" DeviceVersion="19.0.0.0" CreationTime="04/15/2024 10:21:49" RuntimeAddonFolderName="UCP_7_22" FirmwareFileName="UCP_7_22\UCP_7_22_V19_0.fwf" RuntimeFileName="" PRCV="5.0.0.1" RTCV="0.0.0.0" RTReleaseNo="19.0.0.0" ImageReleaseNo="19.0.0.0" />
+  <DeltaDownload>deltas\26\cds.rdf</DeltaDownload>
+  <DeltaDownload>deltas\26\ChromIdentification.rdf</DeltaDownload>
+  <DeltaDownload>deltas\26\deltaES2RTID.rdf</DeltaDownload>
+  <DeltaDownload>deltas\26\deltaImageLibrary_11274.rdf</DeltaDownload>
+  <DeltaDownload>deltas\26\deltaImageLibrary_127.rdf</DeltaDownload>
+  <DeltaDownload>deltas\26\deltaMain.rdf</DeltaDownload>
+  <DeltaDownload>deltas\26\ProjectCharacteristics.rdf</DeltaDownload>
+  <DeltaDownload>deltas\26\config\config.level</DeltaDownload>
+  <DeltaDownload>deltas\26\screens\screen_270.rdf</DeltaDownload>
+</DownloadTask>

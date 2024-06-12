@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<DownloadTask xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectInfo ProjectId="0e5bd35b-60e6-4516-82fc-59d76c384674" ESProjectName="Unified" ESDeviceName="HMI_RT_1" RtProjectFolderName="Unified.PC station[SIMATIC PC station - WinCC Unified PC RT]" RtProjectName="Unified.PC station[SIMATIC PC station - WinCC Unified PC RT]" DeviceType="SIMATIC PC station - WinCC Unified PC RT" DeviceVersion="19.0.0.0" CreationTime="03/15/2024 09:39:57" FirmwareFileName="" RuntimeFileName="" PRCV="5.0.0.1" RTCV="0.0.0.0" RTReleaseNo="19.0.0.0" ImageReleaseNo="0.0.0.0" />
+  <FullDownload type="ADMINDATA">UMCData.json</FullDownload>
+  <FullDownload>{894AD6A7-6155-424B-AA9D-7E77FD174D24}.zip</FullDownload>
+  <FullDownload>{9BA2ACF0-39B3-465B-8E10-28301ED605C5}.zip</FullDownload>
+  <FullDownload>config\config.level</FullDownload>
+  <FullDownload>faceplates\faceplate_375.rdf</FullDownload>
+  <FullDownload>faceplates\faceplate_384.rdf</FullDownload>
+  <FullDownload>faceplates\faceplate_393.rdf</FullDownload>
+  <FullDownload>fonts\SISAN03.ttf</FullDownload>
+  <FullDownload>fonts\SISAN03.woff2</FullDownload>
+  <FullDownload>general\cds.rdf</FullDownload>
+  <FullDownload>general\ChromIdentification.rdf</FullDownload>
+  <FullDownload>general\ChromTypeContainer.rdf</FullDownload>
+  <FullDownload>general\config_AlertClass.rdf</FullDownload>
+  <FullDownload>general\config_AlertHandler.rdf</FullDownload>
+  <FullDownload>general\config_DistributionInfo.rdf</FullDownload>
+  <FullDownload>general\config_DpValue.rdf</FullDownload>
+  <FullDownload>general\config_HmiRuntime.rdf</FullDownload>
+  <FullDownload>general\config_InitialValue.rdf</FullDownload>
+  <FullDownload>general\config_LicenseCounter.rdf</FullDownload>
+  <FullDownload>general\config_PeripheralAddress.rdf</FullDownload>
+  <FullDownload>general\config_Range.rdf</FullDownload>
+  <FullDownload>general\config_SecureConnectionAttributes.rdf</FullDownload>
+  <FullDownload>general\config_Smoothing.rdf</FullDownload>
+  <FullDownload>general\dpIdentification.rdf</FullDownload>
+  <FullDownload>general\fontLocatorList.rdf</FullDownload>
+  <FullDownload>general\main.rdf</FullDownload>
+  <FullDownload>general\Paco.rdf</FullDownload>
+  <FullDownload>general\ProcessDiagnosticsDnnData.rdf</FullDownload>
+  <FullDownload>general\style_139.rdf</FullDownload>
+  <FullDownload>general\style_238.rdf</FullDownload>
+  <FullDownload>general\style_42.rdf</FullDownload>
+  <FullDownload>general\SystemDiagnosticsDnnData.rdf</FullDownload>
+  <FullDownload>general\textLibrary_137_1033.rdf</FullDownload>
+  <FullDownload>general\textLibrary_2_1033.rdf</FullDownload>
+  <FullDownload>general\textListLibrary.rdf</FullDownload>
+  <FullDownload>general\TypeContainer.rdf</FullDownload>
+  <FullDownload>screens\screen_247.rdf</FullDownload>
+  <FullDownload>screens\screen_310.rdf</FullDownload>
+  <FullDownload>screens\screen_405.rdf</FullDownload>
+  <FullDownload>system\ES2RTID.rdf</FullDownload>
+  <FullDownload>system\ProjectCharacteristics.rdf</FullDownload>
+</DownloadTask>

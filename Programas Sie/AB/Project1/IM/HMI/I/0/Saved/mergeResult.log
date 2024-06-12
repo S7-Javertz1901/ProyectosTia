@@ -1,0 +1,41 @@
+**********************
+* MERGE PROGRESS LOG *
+**********************
+[2024-01-05 12:28:21] [INFO]: Starting merge for Project: C:\Users\DeLaCruyff\Downloads\Project1\IM\HMI\I\0\Context.wrk
+[2024-01-05 12:28:21] [INFO]: Setting up Full Project Merge...
+[2024-01-05 12:28:21] [WARNING]: Open optional file failed: C:\Users\DeLaCruyff\Downloads\Project1\IM\HMI\I\0\Context.wrk\system\runtime.rdf
+[2024-01-05 12:28:21] [WARNING]: Open optional file failed: C:\Users\DeLaCruyff\Downloads\Project1\IM\HMI\I\0\Context.wrk\system\persistent.rdf
+[2024-01-05 12:28:21] [WARNING]: Open optional file failed: C:\Users\DeLaCruyff\Downloads\Project1\IM\HMI\I\0\Context.wrk\deltas\14\runtime.rdf
+[2024-01-05 12:28:21] [WARNING]: Open optional file failed: C:\Users\DeLaCruyff\Downloads\Project1\IM\HMI\I\0\Context.wrk\deltas\14\persistent.rdf
+[2024-01-05 12:28:21] [INFO]: Number of Jobs to execute: 15
+[2024-01-05 12:28:21] [INFO]: Starting Job number 1: MERGE JOB
+[2024-01-05 12:28:21] [INFO]: The job was executed succesfully.
+[2024-01-05 12:28:21] [INFO]: Starting Job number 2: JOIN JOB
+[2024-01-05 12:28:21] [INFO]: The job was executed succesfully.
+[2024-01-05 12:28:21] [INFO]: Starting Job number 3: MERGE JOB
+[2024-01-05 12:28:21] [INFO]: The job was executed succesfully.
+[2024-01-05 12:28:21] [INFO]: Starting Job number 4: MERGE JOB
+[2024-01-05 12:28:21] [INFO]: The job was executed succesfully.
+[2024-01-05 12:28:21] [INFO]: Starting Job number 5: JOIN JOB
+[2024-01-05 12:28:21] [INFO]: The job was executed succesfully.
+[2024-01-05 12:28:21] [INFO]: Starting Job number 6: MERGE JOB
+[2024-01-05 12:28:21] [INFO]: The job was executed succesfully.
+[2024-01-05 12:28:21] [INFO]: Starting Job number 7: JOIN JOB
+[2024-01-05 12:28:21] [INFO]: The job was executed succesfully.
+[2024-01-05 12:28:21] [INFO]: Starting Job number 8: FINALIZE JOB
+[2024-01-05 12:28:21] [INFO]: The job was executed succesfully.
+[2024-01-05 12:28:21] [INFO]: Starting Job number 9: DELETE JOB
+[2024-01-05 12:28:21] [INFO]: The job was executed succesfully.
+[2024-01-05 12:28:21] [INFO]: Starting Job number 10: DELETE JOB
+[2024-01-05 12:28:21] [INFO]: The job was executed succesfully.
+[2024-01-05 12:28:21] [INFO]: Starting Job number 11: FINALIZE JOB
+[2024-01-05 12:28:21] [INFO]: The job was executed succesfully.
+[2024-01-05 12:28:21] [INFO]: Starting Job number 12: DELETE JOB
+[2024-01-05 12:28:21] [INFO]: The job was executed succesfully.
+[2024-01-05 12:28:21] [INFO]: Starting Job number 13: DELETE JOB
+[2024-01-05 12:28:21] [INFO]: The job was executed succesfully.
+[2024-01-05 12:28:21] [INFO]: Starting Job number 14: FINALIZE JOB
+[2024-01-05 12:28:21] [INFO]: The job was executed succesfully.
+[2024-01-05 12:28:21] [INFO]: Starting Job number 15: DELETE JOB
+[2024-01-05 12:28:21] [INFO]: The job was executed succesfully.
+[2024-01-05 12:28:21] [INFO]: DONE! Merge succeeded

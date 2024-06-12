@@ -1,0 +1,108 @@
+{
+  "version": "2",
+  "users": [
+    {
+      "name": "Fuego",
+      "password": {
+        "hash": "HuHzCzD0Mnbi9mUunCQ5/eWWSqJBRHTZYT7JLx0b/Ooyr5JfuFIJGMmB1U5WXNhYbeHGIECIjaLd9xim9pQcxA==",
+        "salt": "hW6KzkcDh/7TXyHJcp7mza8F6oTxLiqpbpGfr4HZ3r8=",
+        "algorithm": "PBKDF2-HMAC-SHA1",
+        "encoding": "utf16le",
+        "iteration": 10000
+      },
+      "fullname": "Fuego",
+      "comment": "",
+      "alertbeforepasswordexpirationdays": 0,
+      "passwordexpirationdays": 0,
+      "autologoff": 0
+    },
+    {
+      "name": "Javo",
+      "password": {
+        "hash": "+Vhz2VYGMwwEMB9bDscEJIq1H/5tkje7RWNolPcqNN0UUX8r8HfvrnO4ywHldWu0l+imlbU8IxebfeULVHrjVw==",
+        "salt": "5wSCMNWcl9IYNs/wypTtxje6Mx+tsZSBxz5CobZewgs=",
+        "algorithm": "PBKDF2-HMAC-SHA1",
+        "encoding": "utf16le",
+        "iteration": 10000
+      },
+      "fullname": "Javo",
+      "comment": "",
+      "alertbeforepasswordexpirationdays": 0,
+      "passwordexpirationdays": 0,
+      "autologoff": 0
+    },
+    {
+      "name": "Admin",
+      "password": {
+        "hash": "R123r+j95VTT+E4d06l+D8sNKqGwj1zEuBHwo1XnR6cZaTC/AD5RrDp85kDsioyw0tCoUiaagIzlfJqUJqfjMg==",
+        "salt": "sI9MV+ilQQRphuslJFybTufBbToN63ItXoEntppzQ3E=",
+        "algorithm": "PBKDF2-HMAC-SHA1",
+        "encoding": "utf16le",
+        "iteration": 10000
+      },
+      "fullname": "Admin",
+      "comment": "",
+      "alertbeforepasswordexpirationdays": 0,
+      "passwordexpirationdays": 0,
+      "autologoff": 0
+    }
+  ],
+  "groups": [
+    {
+      "name": "HMI Administrator",
+      "roles": [
+        "HMI Administrator"
+      ],
+      "users": [
+        "Admin"
+      ]
+    },
+    {
+      "name": "HMI Operator",
+      "users": [
+        "Javo"
+      ]
+    },
+    {
+      "name": "HMI Monitor",
+      "users": []
+    },
+    {
+      "name": "HMI Monitor Client",
+      "users": [
+        "Fuego"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "name": "HMI Administrator",
+      "rights": [
+        "UM_ADMIN",
+        "UM_IMPORT",
+        "UM_EXPORT",
+        "UM_VIEW",
+        "UM_RESETPWD"
+      ]
+    }
+  ],
+  "globalAccountPolicies": {
+    "enablePasswordHistoryByDays": 0,
+    "enablePasswordHistoryByNumber": 1,
+    "enablePasswordCheck": 1,
+    "numberOfPasswordBeforeReuse": 5,
+    "passwordAging": 0,
+    "passwordMaxLength": 120,
+    "passwordMinAlphaChar": 0,
+    "passwordMinLength": 8,
+    "passwordMinLowerChar": 1,
+    "passwordMinUpperChar": 1,
+    "passwordMinNumericChar": 1,
+    "passwordMinOtherChar": 0
+  },
+  "umcConfig": {
+    "local": {
+      "domainName": "UM_Domain"
+    }
+  }
+}

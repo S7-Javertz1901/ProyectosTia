@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<DownloadTask xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectInfo ProjectId="530c0771-4c03-49f9-8f6e-b974ec7669ad" ESProjectName="Recipes7_V17_V19" ESDeviceName="HMI_RT_1" RtProjectFolderName="Recipes7_V17_V19.PC-System_1[SIMATIC PC station - WinCC Unified Scada RT]" RtProjectName="Recipes7_V17_V19.PC-System_1[SIMATIC PC station - WinCC Unified Scada RT]" DeviceType="SIMATIC PC station - WinCC Unified Scada RT" DeviceVersion="16.0.0.0" CreationTime="12/26/2019 11:35:30" FirmwareFileName="" RuntimeFileName="" PRCV="2.0.0.0" RTCV="0.0.0.0" RTReleaseNo="16.0.0.0" ImageReleaseNo="0.0.0.0" />
+  <FullDownload type="ADMINDATA">UMCData.json</FullDownload>
+  <FullDownload>User.pbb</FullDownload>
+  <FullDownload>{9BA2ACF0-39B3-465B-8E10-28301ED605C5}.zip</FullDownload>
+  <FullDownload>{9F7D29E9-06B2-4973-AACF-2888C34E6EF2}.zip</FullDownload>
+  <FullDownload>config\config.level</FullDownload>
+  <FullDownload>general\cds.rdf</FullDownload>
+  <FullDownload>general\ChromIdentification.rdf</FullDownload>
+  <FullDownload>general\ChromTypeContainer.rdf</FullDownload>
+  <FullDownload>general\config_AlertClass.rdf</FullDownload>
+  <FullDownload>general\config_AlertHandler.rdf</FullDownload>
+  <FullDownload>general\config_DistributionInfo.rdf</FullDownload>
+  <FullDownload>general\config_DpValue.rdf</FullDownload>
+  <FullDownload>general\config_HmiRuntime.rdf</FullDownload>
+  <FullDownload>general\config_InitialValue.rdf</FullDownload>
+  <FullDownload>general\config_PeripheralAddress.rdf</FullDownload>
+  <FullDownload>general\config_Range.rdf</FullDownload>
+  <FullDownload>general\config_SecureConnectionAttributes.rdf</FullDownload>
+  <FullDownload>general\config_Smoothing.rdf</FullDownload>
+  <FullDownload>general\dpIdentification.rdf</FullDownload>
+  <FullDownload>general\main.rdf</FullDownload>
+  <FullDownload>general\Paco.rdf</FullDownload>
+  <FullDownload>general\style_162.rdf</FullDownload>
+  <FullDownload>general\textLibrary_89_11274.rdf</FullDownload>
+  <FullDownload>general\textLibrary_91_11274.rdf</FullDownload>
+  <FullDownload>general\textListLibrary.rdf</FullDownload>
+  <FullDownload>general\TypeContainer.rdf</FullDownload>
+  <FullDownload>screens\screen_117.rdf</FullDownload>
+  <FullDownload>screens\screen_131.rdf</FullDownload>
+  <FullDownload>system\ProjectCharacteristics.rdf</FullDownload>
+</DownloadTask>

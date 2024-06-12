@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<DownloadTask xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectInfo ProjectId="96e28f0d-745d-4074-8185-19b0d1dc8158" ESProjectName="Edge Unified" ESDeviceName="HMI_RT_1" RtProjectFolderName="Edge Unified.HMI_1[MTP700 Unified Comfort]" RtProjectName="Edge Unified.HMI_1[MTP700 Unified Comfort]" DeviceType="MTP700 Unified Comfort" DeviceVersion="19.0.0.0" CreationTime="04/05/2024 10:52:13" RuntimeAddonFolderName="UCP_7_22" FirmwareFileName="UCP_7_22\UCP_7_22_V19_0.fwf" RuntimeFileName="" PRCV="5.0.0.1" RTCV="0.0.0.0" RTReleaseNo="19.0.0.0" ImageReleaseNo="19.0.0.0" />
+  <FullDownload type="ADMINDATA">UMCData.json</FullDownload>
+  <FullDownload>User.pbb</FullDownload>
+  <FullDownload>{894AD6A7-6155-424B-AA9D-7E77FD174D24}.zip</FullDownload>
+  <FullDownload>{9BA2ACF0-39B3-465B-8E10-28301ED605C5}.zip</FullDownload>
+  <FullDownload>config\config.level</FullDownload>
+  <FullDownload>device\devicesettings.pbb</FullDownload>
+  <FullDownload>device\environment.pbb</FullDownload>
+  <FullDownload>device\runtime.pbb</FullDownload>
+  <FullDownload>fonts\SISAN03.ttf</FullDownload>
+  <FullDownload>fonts\SISAN03.woff2</FullDownload>
+  <FullDownload>general\cds.rdf</FullDownload>
+  <FullDownload>general\ChromIdentification.rdf</FullDownload>
+  <FullDownload>general\config_AlertClass.rdf</FullDownload>
+  <FullDownload>general\config_AlertHandler.rdf</FullDownload>
+  <FullDownload>general\config_HmiRuntime.rdf</FullDownload>
+  <FullDownload>general\config_InitialValue.rdf</FullDownload>
+  <FullDownload>general\config_LicenseCounter.rdf</FullDownload>
+  <FullDownload>general\dpIdentification.rdf</FullDownload>
+  <FullDownload>general\fontLocatorList.rdf</FullDownload>
+  <FullDownload>general\main.rdf</FullDownload>
+  <FullDownload>general\style_138.rdf</FullDownload>
+  <FullDownload>general\style_237.rdf</FullDownload>
+  <FullDownload>general\style_41.rdf</FullDownload>
+  <FullDownload>general\textLibrary_136_1033.rdf</FullDownload>
+  <FullDownload>general\textLibrary_2_1033.rdf</FullDownload>
+  <FullDownload>general\textListLibrary.rdf</FullDownload>
+  <FullDownload>screens\screen_247.rdf</FullDownload>
+  <FullDownload>system\ES2RTID.rdf</FullDownload>
+  <FullDownload>system\ProjectCharacteristics.rdf</FullDownload>
+</DownloadTask>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DownloadTask>
+  <ProjectInfo
+    DeviceVersion="17.0.0.0"
+    CreationTime="2024-01-22 19:10:09 (UTC)"
+    Runtime="COLORADO"
+    RtProjectName="Project1.HMI_1[TP900 Comfort]"
+    RtProjectFolderName="Project1.HMI_1[TP900 Comfort]"
+    DeviceType="TP900 Comfort"
+    DisplayOrientation="0"
+    RTReleaseNo="17.0.0.6"
+    ImageReleaseNo="17.0.0.6"
+    RTCV="17.0.0.0"
+    PRCV="17.0.0.0"
+    FirmwareFileName="CP_7_9\17.0.0.6\CP_7_9_12_V17_0.fwf"
+    RuntimeFileName="CP_7_9\17.0.0.6\CP_7_9_12_V17_0.ruf"
+    RuntimeAddonFolderName="CP_7_9" />
+  <FullDownload>pdata.fwc</FullDownload>
+  <FullDownload
+    type="ADMINDATA">pdata.pwx</FullDownload>
+  <FullDownload>ProjectSettings.hsf</FullDownload>
+  <FullDownload>DeviceSettings.hsf</FullDownload>
+  <FullDownload>SmartServer.rld</FullDownload>
+</DownloadTask>
