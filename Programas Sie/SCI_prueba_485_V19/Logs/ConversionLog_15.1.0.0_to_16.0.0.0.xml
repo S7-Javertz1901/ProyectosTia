@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="SCI_V16" typeText="Tipo" messageText="Mensaje" timeText="Hora">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="28/06/2024 21:37:50">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Actualización iniciada" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="28/06/2024 21:37:52" Debug="false">
+    <Text>Reorganization succeed!</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="28/06/2024 21:37:53">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair lost+found objects" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="28/06/2024 21:37:55" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="28/06/2024 21:37:55">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair missing bidirectional links" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="28/06/2024 21:37:56" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="28/06/2024 21:37:56">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair clear segment flags" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="28/06/2024 21:37:56" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="28/06/2024 21:38:19">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Convirtiendo la información de referencias cruzadas." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="28/06/2024 21:38:20">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="La información de referencias cruzadas se ha generado correctamente." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="28/06/2024 21:38:20">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="La conversión de la información de referencias cruzadas se ha completado." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="28/06/2024 21:38:20" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Lang.S7PSW.V15.1.0.0.NonMandatory' was deleted</Text>
+  </Details>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectSucceeded" MessageClass="Success" Timestamp="28/06/2024 21:38:21">
+    <Number ServiceNumber="80" MessageNumber="34" />
+    <Text FeedbackText="El proyecto 'D:\Rober\Julian\Senasa\SCI\System\PEData.plf' se ha actualizado correctamente y se ha guardado como proyecto 'D:\Rober\Julian\Senasa\SCI_V16\System\PEData.plf'." />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="28/06/2024 21:38:21">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="FinalCheckRemainingErrors" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="28/06/2024 21:38:22" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+</LogFile>

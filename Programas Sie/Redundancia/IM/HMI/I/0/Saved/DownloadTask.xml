@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<DownloadTask xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectInfo ProjectId="54f2c1ea-70d2-4b84-b363-ae4a473ffdaf" ESProjectName="Redundancia" ESDeviceName="HMI_RT_1" RtProjectFolderName="Redundancia.HMI_1[MTP1500 Unified Comfort]" RtProjectName="Redundancia.HMI_1[MTP1500 Unified Comfort]" DeviceType="MTP1500 Unified Comfort" DeviceVersion="19.0.0.2" CreationTime="08/27/2024 15:12:04" RuntimeAddonFolderName="UCP_7_22" FirmwareFileName="" RuntimeFileName="" PRCV="5.0.0.2" RTCV="16.0.0.0" RTReleaseNo="19.0.0.2" ImageReleaseNo="19.0.0.2" />
+  <FullDownload type="ADMINDATA">UMCData.json</FullDownload>
+  <FullDownload>User.pbb</FullDownload>
+  <FullDownload>{894AD6A7-6155-424B-AA9D-7E77FD174D24}.zip</FullDownload>
+  <FullDownload>{9BA2ACF0-39B3-465B-8E10-28301ED605C5}.zip</FullDownload>
+  <FullDownload>device\devicesettings.pbb</FullDownload>
+  <FullDownload>fonts\SISAN03.ttf</FullDownload>
+  <FullDownload>fonts\SISAN03.woff2</FullDownload>
+  <FullDownload>general\cds.rdf</FullDownload>
+  <FullDownload>general\ChromIdentification.rdf</FullDownload>
+  <FullDownload>general\config_AlertClass.rdf</FullDownload>
+  <FullDownload>general\config_AlertHandler.rdf</FullDownload>
+  <FullDownload>general\config_HmiRuntime.rdf</FullDownload>
+  <FullDownload>general\config_InitialValue.rdf</FullDownload>
+  <FullDownload>general\dpIdentification.rdf</FullDownload>
+  <FullDownload>general\fontLocatorList.rdf</FullDownload>
+  <FullDownload>general\main.rdf</FullDownload>
+  <FullDownload>general\style_138.rdf</FullDownload>
+  <FullDownload>general\style_237.rdf</FullDownload>
+  <FullDownload>general\style_41.rdf</FullDownload>
+  <FullDownload>general\textLibrary_136_1033.rdf</FullDownload>
+  <FullDownload>general\textLibrary_2_1033.rdf</FullDownload>
+  <FullDownload>general\textListLibrary.rdf</FullDownload>
+  <FullDownload>system\ES2RTID.rdf</FullDownload>
+  <FullDownload>system\ProjectCharacteristics.rdf</FullDownload>
+</DownloadTask>
