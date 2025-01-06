@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<DownloadTask xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectInfo ProjectId="ae3f32fd-300d-4d15-95b0-69c2fdfe976a" ESProjectName="Project15" ESDeviceName="HMI_RT_1" RtProjectFolderName="Project15.PC-System_1[SIMATIC PC station - WinCC Unified PC RT]" RtProjectName="Project15.PC-System_1[SIMATIC PC station - WinCC Unified PC RT]" DeviceType="SIMATIC PC station - WinCC Unified PC RT" DeviceVersion="19.0.0.2" CreationTime="10/04/2024 12:26:43" FirmwareFileName="" RuntimeFileName="" PRCV="5.0.0.2" RTCV="0.0.0.0" RTReleaseNo="19.0.0.2" ImageReleaseNo="0.0.0.0" />
+  <FullDownload type="ADMINDATA">UMCData.json</FullDownload>
+  <FullDownload>{894AD6A7-6155-424B-AA9D-7E77FD174D24}.zip</FullDownload>
+  <FullDownload>{9BA2ACF0-39B3-465B-8E10-28301ED605C5}.zip</FullDownload>
+  <FullDownload>config\config.level</FullDownload>
+  <FullDownload>fonts\SISAN03.ttf</FullDownload>
+  <FullDownload>fonts\SISAN03.woff2</FullDownload>
+  <FullDownload>general\cds.rdf</FullDownload>
+  <FullDownload>general\ChromIdentification.rdf</FullDownload>
+  <FullDownload>general\config_AlertClass.rdf</FullDownload>
+  <FullDownload>general\config_AlertHandler.rdf</FullDownload>
+  <FullDownload>general\config_HmiRuntime.rdf</FullDownload>
+  <FullDownload>general\config_InitialValue.rdf</FullDownload>
+  <FullDownload>general\dpIdentification.rdf</FullDownload>
+  <FullDownload>general\fontLocatorList.rdf</FullDownload>
+  <FullDownload>general\main.rdf</FullDownload>
+  <FullDownload>general\style_139.rdf</FullDownload>
+  <FullDownload>general\style_238.rdf</FullDownload>
+  <FullDownload>general\style_42.rdf</FullDownload>
+  <FullDownload>general\textLibrary_137_1033.rdf</FullDownload>
+  <FullDownload>general\textLibrary_2_1033.rdf</FullDownload>
+  <FullDownload>general\textListLibrary.rdf</FullDownload>
+  <FullDownload>graphics\imageLibrary_1033.rdf</FullDownload>
+  <FullDownload>graphics\imageLibrary_127.rdf</FullDownload>
+  <FullDownload>screens\screen_247.rdf</FullDownload>
+  <FullDownload>screens\screen_249.rdf</FullDownload>
+  <FullDownload>system\ES2RTID.rdf</FullDownload>
+  <FullDownload>system\ProjectCharacteristics.rdf</FullDownload>
+</DownloadTask>
